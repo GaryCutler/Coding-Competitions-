@@ -1,7 +1,4 @@
-// var tiles = document.querySelector(".tile");
-// var tile1 = document.getElementById("tile1");
-// var tile2 = document.getElementById("tile2");
-// var tile3 = document.getElementById("tile3");
+var t1Button = document.getElementById("button-t1");
 
 var initPage = {
   
@@ -12,6 +9,24 @@ var initPage = {
 
   codeForcesInfo: function(data) {
     // Assign data to a card or perform any other operations
+    var t1Title = document.getElementById("title-t1");
+    var t1Desc = document.getElementById("description-t1");
+    var t1Date = document.getElementById("date-t1");
+    var dateStr = data[0].start_time;
+    var date = new Date(dateStr);
+    var formattedDate = date.toLocaleString();   
+    t1Title.innerHTML = data[0].name;
+    t1Desc.innerHTML = "Has Started: " + data[0].status;
+    t1Date.innerHTML = formattedDate;
+    if (data[0].status === "BEFORE") {
+        t1Desc.innerHTML = "Started?: " + "Not Yet";
+    } else if (data[0].status === "CODING") {
+        t1Desc.innerHTML = "Started?: " + "Ongoing";
+    } else {
+        t1Desc.innerHTML = "Started?: " + "Finished";
+    }
+    
+
     console.log('Code Forces:', data);
   },
 
