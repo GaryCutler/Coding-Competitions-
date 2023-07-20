@@ -30,8 +30,3 @@ body {
   background: linear-gradient(90deg, rgba(228, 226, 226, 1) 31%, rgba(161, 161, 161, 1) 58%, rgba(0, 212, 255, 1) 100%);
 }
 
-.virtical-center {
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
