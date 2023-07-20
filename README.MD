@@ -4,9 +4,10 @@ The goal for this project was to streamline the user's experience with finding n
 Hear is a Photo of the website.
 ![title of photo](./assets/images/Screenshot%202023-07-19%20201624.png)
 ***
-* Git Hub Link to the Website "Title"
+* link to website and github
 
-    * [GitHub-Website](https://github.com/GaryCutler/Coding-Competitions-)
+    * [GitHub](https://github.com/GaryCutler/Coding-Competitions-)
+    * [GitHub-Website](https://garycutler.github.io/Coding-Competitions-/)
 ***
 # Technologies Used
 1. HTML
