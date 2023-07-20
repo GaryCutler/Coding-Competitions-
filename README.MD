@@ -13,4 +13,6 @@ Hear is a Photo of the website.
 2. CSS
 3. javascript
 4. Bulma 
+5. 9x apis 
+6. Font-Awesome 
      
